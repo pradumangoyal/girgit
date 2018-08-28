@@ -33,15 +33,15 @@ class AddColor extends Component{
     render(){
         return(
             <Form>
-                <Form.Field>
+                <Form.Field className='input'>
                     <label>Display Color</label>
                     <input type='color' value={this.state.color} onChange={this.handleChange} name='color'/>
                 </Form.Field>
-                <Form.Field>
+                <Form.Field className='input'>
                     <label>Text Color</label>
                     <input type='color' value={this.state.text} onChange={this.handleChange} name='text'/>
                 </Form.Field>
-                <Form.Field>
+                <Form.Field className='input'>
                     <label>Background Color</label>
                     <input type='color' value={this.state.bg} onChange={this.handleChange} name='bg' />
                 </Form.Field>

@@ -24,3 +24,7 @@
 form{
     margin-top: 10px;
 }
+.input{
+    display: inline-block;
+    padding: 5px;
+}

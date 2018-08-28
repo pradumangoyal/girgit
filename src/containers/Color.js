@@ -8,16 +8,18 @@ class ColorCircle extends Component{
 
     render(){
         divStyle = {
+            display: 'inline-block',
             background: this.props.color.color,
          }
         if(this.props.color === this.props.activeColor){
         divStyle = {
+            display: 'inline-block',
             background: this.props.color.color,
             borderColor: 'blue' 
         }}
         return(
             <Popup
-            trigger={<div className='colorCircle' style={divStyle} onClick={() => {this.props.selectColor(this.props.color)}} >
+            trigger={<div className='colorCircle' style={divStyle} onMouseOver={() => {this.props.selectColor(this.props.color)}} >
             </div>}
             content={this.props.color.color}
             size='mini' />
