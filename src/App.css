@@ -1,0 +1,26 @@
+.Tab{
+    min-height: 20rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.NavTab .active{
+    background: grey;
+}
+.colorCircle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    transition-duration: 0.25s;
+    margin: 2px;
+}
+.colorCircle:hover{
+    border-color: rebeccapurple;
+    transition-duration: 0.25s;
+}
+form{
+    margin-top: 10px;
+}
