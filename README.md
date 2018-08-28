@@ -10,7 +10,6 @@ In this world, where we are surrounded by lots of girgits, lets use this name fo
 1. Clone the Repository
 ```shell
 $ git clone https://github.com/pradumangoyal/girgit.git girgit
-$ cd stream
 ```
 2. Install node_modules
 ```shell
